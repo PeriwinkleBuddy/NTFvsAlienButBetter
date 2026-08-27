@@ -931,11 +931,13 @@
 /turf/open/floor/plating,
 /area/antag_ship/vsd/hall)
 "bjL" = (
+/obj/structure/closet/wardrobe,
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
-/obj/structure/closet/wardrobe,
-/obj/structure/window/reinforced/tinted,
+/obj/structure/window/reinforced/tinted{
+	layer = 4.2
+	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "bjT" = (
@@ -2791,7 +2793,6 @@
 /turf/open/floor/plating,
 /area/antag_ship/icc/hangar/west)
 "dCo" = (
-/obj/structure/cable,
 /obj/structure/curtain/black,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
@@ -4229,6 +4230,7 @@
 /turf/open/space/basic,
 /area/testroom)
 "fEb" = (
+/obj/structure/cable,
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 10
 	},
@@ -4447,7 +4449,6 @@
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/generator_room)
 "fUy" = (
-/obj/structure/cable,
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
@@ -5768,14 +5769,14 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "hPF" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 8
-	},
 /obj/structure/table/mainship{
 	color = "#848484"
 	},
 /obj/machinery/light/mainship/small{
 	dir = 1
+	},
+/obj/structure/window/reinforced/tinted{
+	dir = 8
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -6822,11 +6823,12 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/office/commander)
 "jlj" = (
-/obj/structure/cable,
+/obj/structure/window/reinforced/tinted{
+	layer = 4.2
+	},
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
-/obj/structure/window/reinforced/tinted,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "jln" = (
@@ -9069,7 +9071,6 @@
 	},
 /area/antag_ship/vsd/engi)
 "mcQ" = (
-/obj/structure/cable,
 /obj/structure/window/reinforced/tinted,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
@@ -9310,7 +9311,6 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/engi)
 "mwL" = (
-/obj/structure/cable,
 /obj/structure/window/reinforced/tinted{
 	dir = 4;
 	pixel_x = 5;
@@ -11584,20 +11584,6 @@
 /obj/item/reagent_containers/food/snacks/grown/harebell,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
-"pHC" = (
-/obj/structure/table/mainship{
-	color = "#848484"
-	},
-/obj/structure/window/reinforced/tinted{
-	dir = 8
-	},
-/obj/machinery/light/mainship/small{
-	dir = 1
-	},
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
-	},
-/area/antag_ship/clf_base/real/dorms)
 "pHV" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -17619,10 +17605,6 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
-"xDx" = (
-/obj/structure/curtain/black,
-/turf/open/floor/kutjevo,
-/area/antag_ship/clf_base/real/dorms)
 "xDC" = (
 /obj/machinery/bioprinter/stocked,
 /turf/open/floor/mainship/sterile/side,
@@ -41641,8 +41623,8 @@ mUs
 qoB
 kHj
 wyD
-kIe
-bPu
+wyD
+obm
 hkQ
 hkQ
 hkQ
@@ -41736,9 +41718,9 @@ bcL
 oOM
 qkg
 uIB
-wyD
 kIe
-bPu
+kIe
+obm
 hkQ
 hkQ
 hkQ
@@ -41834,7 +41816,7 @@ qkg
 hPF
 jlj
 kIe
-bPu
+obm
 hkQ
 hkQ
 hkQ
@@ -41930,7 +41912,7 @@ qkg
 sCl
 mcQ
 kIe
-bPu
+obm
 qpK
 tIL
 pNq
@@ -42119,10 +42101,10 @@ cJU
 cJU
 lAp
 cJU
-pHC
+hPF
 fUy
 bjL
-kIe
+wyD
 kIe
 kIe
 mnP
@@ -42216,9 +42198,9 @@ ujC
 rrM
 cJU
 sCl
-wyD
-xDx
 kIe
+dCo
+wyD
 kIe
 kIe
 bPu
@@ -42311,10 +42293,10 @@ hZJ
 hZJ
 bng
 cJU
-pHC
+hPF
 fUy
 bjL
-kIe
+wyD
 kIe
 kIe
 bPu
@@ -42410,7 +42392,7 @@ cJU
 rXo
 mwL
 oro
-kIe
+wyD
 kIe
 kIe
 bPu
