@@ -8714,11 +8714,7 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/medical2,
-/obj/structure/window/reinforced/tinted{
-	dir = 1;
-	alpha = 0;
-	layer = 4.2
-	},
+/obj/structure/window/reinforced/tinted,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/real/medbay)
 "lHw" = (
@@ -15421,11 +15417,7 @@
 /turf/closed/wall/mainship/gray,
 /area/antag_ship/icc/bathroom)
 "uBK" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 1;
-	alpha = 0;
-	layer = 4.2
-	},
+/obj/structure/window/reinforced/tinted,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/real/medbay)
 "uBZ" = (
