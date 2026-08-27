@@ -5457,6 +5457,15 @@
 	},
 /turf/open/floor/plating/heatinggrate,
 /area/antag_ship/vsd/engi)
+"hmK" = (
+/obj/structure/curtain/black,
+/obj/structure/window/reinforced/tinted{
+	dir = 4;
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/turf/open/floor/kutjevo,
+/area/antag_ship/clf_base/real/dorms)
 "hmU" = (
 /obj/machinery/vending/hydronutrients{
 	density = 0;
@@ -10738,8 +10747,6 @@
 /obj/effect/urban/decal/road/lines1,
 /obj/effect/urban/decal/road/road_edge/twelve,
 /obj/machinery/streetlight/streetCoE{
-	light_power = 5;
-	light_range = 8;
 	pixel_y = -7
 	},
 /turf/open/urban/street/sidewalkcenter{
@@ -15191,8 +15198,6 @@
 /obj/effect/urban/decal/road/lines4,
 /obj/effect/urban/decal/road/road_edge/eleven,
 /obj/machinery/streetlight/streetCoE{
-	light_power = 5;
-	light_range = 8;
 	pixel_y = -7
 	},
 /turf/open/urban/street/sidewalkcenter{
@@ -17618,15 +17623,6 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
-"xDx" = (
-/obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 0
-	},
-/turf/open/floor/kutjevo,
-/area/antag_ship/clf_base/real/dorms)
 "xDC" = (
 /obj/machinery/bioprinter/stocked,
 /turf/open/floor/mainship/sterile/side,
@@ -42413,7 +42409,7 @@ iho
 cJU
 rXo
 mwL
-xDx
+hmK
 kIe
 kIe
 kIe

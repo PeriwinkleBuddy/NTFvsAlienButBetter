@@ -114,7 +114,7 @@
 		set_light(0)
 	else if(street_light_area.power_light)
 		icon_state = "street_on"
-		set_light(10, 8, COLOR_WHITE)
+		set_light(5, 8, COLOR_WHITE)
 	else
 		icon_state = "street_off"
 		set_light(0)
