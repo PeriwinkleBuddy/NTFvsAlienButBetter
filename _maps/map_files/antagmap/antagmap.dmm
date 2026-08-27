@@ -5457,16 +5457,6 @@
 	},
 /turf/open/floor/plating/heatinggrate,
 /area/antag_ship/vsd/engi)
-"hmK" = (
-/obj/effect/urban/decal/road/lines1,
-/obj/effect/urban/decal/road/road_edge/twelve,
-/obj/machinery/streetlight/street{
-	pixel_y = -7
-	},
-/turf/open/urban/street/sidewalkcenter{
-	dir = 1
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "hmU" = (
 /obj/machinery/vending/hydronutrients{
 	density = 0;
@@ -10692,6 +10682,11 @@
 /area/shuttle/transport)
 "oro" = (
 /obj/structure/curtain/black,
+/obj/structure/window/reinforced/tinted{
+	dir = 4;
+	pixel_x = 5;
+	pixel_y = 0
+	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "orr" = (
@@ -12111,15 +12106,6 @@
 	},
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/transport)
-"qmE" = (
-/obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 0
-	},
-/turf/open/floor/kutjevo,
-/area/antag_ship/clf_base/real/dorms)
 "qmG" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/rifle/icc_mg,
@@ -17633,6 +17619,10 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
+"xDx" = (
+/obj/structure/curtain/black,
+/turf/open/floor/kutjevo,
+/area/antag_ship/clf_base/real/dorms)
 "xDC" = (
 /obj/machinery/bioprinter/stocked,
 /turf/open/floor/mainship/sterile/side,
@@ -42227,7 +42217,7 @@ rrM
 cJU
 sCl
 wyD
-oro
+xDx
 kIe
 kIe
 kIe
@@ -42419,7 +42409,7 @@ iho
 cJU
 rXo
 mwL
-qmE
+oro
 kIe
 kIe
 kIe
@@ -44428,7 +44418,7 @@ sFW
 xLj
 jIB
 bav
-hmK
+ovs
 rVy
 cbB
 cbB
