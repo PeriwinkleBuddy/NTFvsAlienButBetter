@@ -2792,10 +2792,6 @@
 /obj/structure/catwalk,
 /turf/open/floor/plating,
 /area/antag_ship/icc/hangar/west)
-"dCo" = (
-/obj/structure/curtain/black,
-/turf/open/floor/kutjevo,
-/area/antag_ship/clf_base/real/dorms)
 "dCC" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -10682,11 +10678,6 @@
 /area/shuttle/transport)
 "oro" = (
 /obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 0
-	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "orr" = (
@@ -17605,6 +17596,15 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
+"xDx" = (
+/obj/structure/curtain/black,
+/obj/structure/window/reinforced/tinted{
+	dir = 8;
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/turf/open/floor/kutjevo,
+/area/antag_ship/clf_base/real/dorms)
 "xDC" = (
 /obj/machinery/bioprinter/stocked,
 /turf/open/floor/mainship/sterile/side,
@@ -42006,7 +42006,7 @@ acG
 xVC
 qkg
 hhR
-dCo
+oro
 kIe
 fEb
 skj
@@ -42199,7 +42199,7 @@ rrM
 cJU
 sCl
 kIe
-dCo
+oro
 wyD
 kIe
 kIe
@@ -42391,7 +42391,7 @@ iho
 cJU
 rXo
 mwL
-oro
+xDx
 wyD
 kIe
 kIe
