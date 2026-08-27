@@ -6306,6 +6306,16 @@
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
+"iyY" = (
+/obj/structure/cable,
+/obj/item/tool/crowbar/red{
+	pixel_x = 0;
+	pixel_y = 14
+	},
+/turf/open/urban/street/sidewalk{
+	dir = 8
+	},
+/area/antag_ship/clf_base/facade/parklot)
 "iAf" = (
 /obj/machinery/light/mainship{
 	dir = 8
@@ -11796,9 +11806,9 @@
 /turf/open/floor/prison/redfloor,
 /area/antag_ship/vsd/bridge)
 "pWk" = (
-/obj/item/tool/crowbar/red{
+/obj/machinery/hydroponics{
 	pixel_x = 0;
-	pixel_y = 14
+	pixel_y = 25
 	},
 /turf/open/floor/grass,
 /area/antag_ship/clf_base/facade/parklot)
@@ -43855,7 +43865,7 @@ rfA
 rfA
 rfA
 rfA
-fbt
+pWk
 fbt
 fbt
 fkr
@@ -43951,7 +43961,7 @@ jln
 baN
 fqD
 rfA
-fbt
+pWk
 fbt
 fbt
 fbt
@@ -44047,7 +44057,7 @@ fvn
 dzm
 jtQ
 rfA
-fbt
+pWk
 fbt
 qeR
 fbt
@@ -44238,7 +44248,7 @@ hxu
 rWr
 rWr
 rWr
-rWr
+iyY
 rWr
 rWr
 rWr
