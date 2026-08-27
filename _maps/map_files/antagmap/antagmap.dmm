@@ -934,8 +934,8 @@
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
-/obj/structure/window/reinforced/tinted,
 /obj/structure/closet/wardrobe,
+/obj/structure/window/reinforced/tinted,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "bjT" = (
@@ -5458,14 +5458,15 @@
 /turf/open/floor/plating/heatinggrate,
 /area/antag_ship/vsd/engi)
 "hmK" = (
-/obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 0
+/obj/effect/urban/decal/road/lines1,
+/obj/effect/urban/decal/road/road_edge/twelve,
+/obj/machinery/streetlight/street{
+	pixel_y = -7
 	},
-/turf/open/floor/kutjevo,
-/area/antag_ship/clf_base/real/dorms)
+/turf/open/urban/street/sidewalkcenter{
+	dir = 1
+	},
+/area/antag_ship/clf_base/facade/parklot)
 "hmU" = (
 /obj/machinery/vending/hydronutrients{
 	density = 0;
@@ -12110,6 +12111,15 @@
 	},
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/transport)
+"qmE" = (
+/obj/structure/curtain/black,
+/obj/structure/window/reinforced/tinted{
+	dir = 4;
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/turf/open/floor/kutjevo,
+/area/antag_ship/clf_base/real/dorms)
 "qmG" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/rifle/icc_mg,
@@ -42409,7 +42419,7 @@ iho
 cJU
 rXo
 mwL
-hmK
+qmE
 kIe
 kIe
 kIe
@@ -44418,7 +44428,7 @@ sFW
 xLj
 jIB
 bav
-ovs
+hmK
 rVy
 cbB
 cbB

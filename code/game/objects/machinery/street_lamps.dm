@@ -107,7 +107,7 @@
 	max_integrity = 220
 	density = FALSE
 
-/obj/machinery/streetlight/street/update_icon_state()
+/obj/machinery/streetlight/streetCoE/update_icon_state()
 	var/area/street_light_area = get_area(src)
 	if(obj_integrity != initial(max_integrity))
 		icon_state = "street_dmg"
