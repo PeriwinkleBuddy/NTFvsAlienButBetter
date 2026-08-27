@@ -2793,10 +2793,6 @@
 "dCo" = (
 /obj/structure/cable,
 /obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	alpha = 0
-	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "dCC" = (
@@ -5360,10 +5356,6 @@
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/fore/restroom)
 "hhR" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	alpha = 0
-	},
 /obj/structure/closet/wardrobe,
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -5465,13 +5457,6 @@
 	},
 /turf/open/floor/plating/heatinggrate,
 /area/antag_ship/vsd/engi)
-"hmK" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	alpha = 0
-	},
-/turf/open/floor/kutjevo,
-/area/antag_ship/clf_base/real/dorms)
 "hmU" = (
 /obj/machinery/vending/hydronutrients{
 	density = 0;
@@ -9328,7 +9313,8 @@
 /obj/structure/cable,
 /obj/structure/window/reinforced/tinted{
 	dir = 4;
-	alpha = 0
+	pixel_x = 5;
+	pixel_y = 0
 	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
@@ -9829,14 +9815,6 @@
 /obj/machinery/power/apc,
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/bathroom/lower)
-"njZ" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 8
-	},
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
-	},
-/area/antag_ship/clf_base/real/dorms)
 "nkD" = (
 /obj/item/defibrillator/civi,
 /obj/item/defibrillator/civi,
@@ -10704,10 +10682,6 @@
 /area/shuttle/transport)
 "oro" = (
 /obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	alpha = 0
-	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "orr" = (
@@ -12127,15 +12101,6 @@
 	},
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/transport)
-"qmE" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	alpha = 0
-	},
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
-	},
-/area/antag_ship/clf_base/real/dorms)
 "qmG" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/rifle/icc_mg,
@@ -13507,7 +13472,8 @@
 /obj/structure/bed/urban/bunkbed4,
 /obj/structure/window/reinforced/tinted{
 	dir = 4;
-	alpha = 0
+	pixel_x = 5;
+	pixel_y = 0
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -17647,12 +17613,11 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
 "xDx" = (
+/obj/structure/curtain/black,
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	alpha = 0;
-	layer = 4.2;
-	pixel_x = 0;
-	pixel_y = 15
+	dir = 4;
+	pixel_x = 5;
+	pixel_y = 0
 	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
@@ -41768,8 +41733,8 @@ sxl
 bcL
 oOM
 qkg
-qmE
-mwL
+uIB
+wyD
 kIe
 bPu
 hkQ
@@ -41866,7 +41831,7 @@ oOM
 qkg
 hPF
 jlj
-xDx
+kIe
 bPu
 hkQ
 hkQ
@@ -41962,7 +41927,7 @@ oOM
 qkg
 sCl
 mcQ
-xDx
+kIe
 bPu
 qpK
 tIL
@@ -42058,7 +42023,7 @@ xVC
 qkg
 hhR
 dCo
-hmK
+kIe
 fEb
 skj
 fjm
@@ -42155,7 +42120,7 @@ cJU
 pHC
 fUy
 bjL
-xDx
+kIe
 kIe
 kIe
 mnP
@@ -42248,8 +42213,8 @@ ujC
 ujC
 rrM
 cJU
-rXo
-mwL
+sCl
+wyD
 oro
 kIe
 kIe
@@ -42347,7 +42312,7 @@ cJU
 pHC
 fUy
 bjL
-xDx
+kIe
 kIe
 kIe
 bPu
@@ -42442,7 +42407,7 @@ iho
 cJU
 rXo
 mwL
-oro
+xDx
 kIe
 kIe
 kIe
@@ -42536,9 +42501,9 @@ kyd
 kyd
 jox
 cJU
-njZ
-fUy
-fUy
+uIB
+wyD
+wyD
 wyD
 wyD
 wyD
