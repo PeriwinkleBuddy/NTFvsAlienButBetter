@@ -5352,12 +5352,6 @@
 	},
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/fore/restroom)
-"hhR" = (
-/obj/structure/benchpress,
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
-	},
-/area/antag_ship/clf_base/real/dorms)
 "hig" = (
 /obj/structure/table/wood/fancy,
 /obj/machinery/computer/communications/cm,
@@ -7130,8 +7124,9 @@
 	pixel_x = 4;
 	pixel_y = 18;
 	name = "Aknowledgemental Spire";
-	desc = "It's a small obelisk, used to credit the efforts of important people. <br> <br> Thank you to 'Arturlang' for assisting in bringing color to the littlest things. <br> <br> Thank you to 'Periwinklebuddy', who saw that the Church does not need to live in a dusty cave. <br> <br> You don't seem to recognize any of the esoteric names.";
-	density = 0
+	desc = "It's a small obelisk, used to credit the efforts of important people.<br><br>Thank you to 'Arturlang' for assisting in bringing color to the littlest things.<br><br>Thank you to 'Periwinklebuddy', who saw that the Church does not need to live in a dusty cave.<br><br>You don't seem to recognize any of these esoteric names.";
+	density = 0;
+	examine_thats = "That's an"
 	},
 /turf/open/floor/carpet/royalblack,
 /area/antag_ship/clf_base/facade/entryway)
@@ -9057,6 +9052,12 @@
 	dir = 1
 	},
 /area/antag_ship/vsd/engi)
+"mcQ" = (
+/obj/structure/benchpress,
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/dorms)
 "mdB" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -41896,7 +41897,7 @@ sxl
 bcL
 oOM
 qkg
-hhR
+mcQ
 kIe
 kIe
 obm
