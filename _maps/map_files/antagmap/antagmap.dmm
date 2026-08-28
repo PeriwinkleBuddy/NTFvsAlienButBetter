@@ -435,9 +435,7 @@
 	pixel_x = 1;
 	pixel_y = 7
 	},
-/turf/open/floor/mainship/sterile/corner{
-	dir = 1
-	},
+/turf/open/floor/whitecyanfour,
 /area/antag_ship/clf_base/real/medbay)
 "azH" = (
 /obj/structure/table/urban/shiny_black,
@@ -1832,7 +1830,7 @@
 	pixel_y = 24;
 	layer = 4.2
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -2004,7 +2002,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -2058,7 +2056,7 @@
 	pixel_y = 15;
 	layer = 2.7
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -2346,12 +2344,6 @@
 /obj/machinery/vending/snack,
 /turf/open/floor/plating/ground/dirt,
 /area/antag_ship/icc/hangar/east)
-"cSX" = (
-/obj/machinery/light/blue{
-	dir = 4
-	},
-/turf/open/floor/mainship/tcomms,
-/area/antag_ship/clf_base/real/reedroom)
 "cTq" = (
 /obj/effect/turf_decal/trimline/blue/warning{
 	dir = 8
@@ -3155,7 +3147,7 @@
 /obj/machinery/optable,
 /obj/item/tank/anesthetic,
 /obj/item/clothing/mask/breath/medical,
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "ehz" = (
 /obj/machinery/vending/uniform_supply/icc,
@@ -3453,7 +3445,7 @@
 	dir = 4
 	},
 /obj/machinery/chem_dispenser,
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 4
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -5675,9 +5667,6 @@
 /obj/item/clothing/shoes/marine/icc/guard/knife,
 /turf/open/floor/plating,
 /area/antag_ship/icc/warehouse)
-"hDQ" = (
-/turf/open/floor/mainship/sterile/dark,
-/area/antag_ship/clf_base/real/medbay)
 "hEm" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/mainship/generic/glass{
@@ -6232,17 +6221,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating/heatinggrate,
 /area/antag_ship/vsd/engi)
-"itg" = (
-/obj/machinery/holosign_switch{
-	id = CoE;
-	pixel_x = 9;
-	pixel_y = 23;
-	layer = 4.2
-	},
-/turf/open/floor/mainship/sterile/side{
-	dir = 1
-	},
-/area/antag_ship/clf_base/real/medbay)
 "itk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7054,11 +7032,6 @@
 "jup" = (
 /turf/open/floor/kutjevo/colors/orange/edge,
 /area/antag_ship/clf_base/real/dorms)
-"juw" = (
-/turf/open/floor/mainship/sterile/side{
-	dir = 10
-	},
-/area/antag_ship/clf_base/real/medbay)
 "juC" = (
 /obj/structure/prop/mainship/prop_sec{
 	dir = 4
@@ -7116,6 +7089,12 @@
 	dir = 4
 	},
 /area/antag_ship/vsd/med)
+"jAs" = (
+/obj/machinery/light/blue{
+	dir = 4
+	},
+/turf/open/floor/mainship/tcomms,
+/area/antag_ship/clf_base/real/reedroom)
 "jAt" = (
 /obj/item/reagent_containers/food/snacks/grown/tomato,
 /obj/item/reagent_containers/food/snacks/grown/tomato,
@@ -7361,6 +7340,11 @@
 /obj/effect/landmark/weapon_spawn/tier2_weapon_spawn,
 /turf/open/floor/plating/ground/dirt,
 /area/antag_ship/icc/hangar/east)
+"jQl" = (
+/turf/open/floor/whitecyanfive{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/medbay)
 "jQV" = (
 /turf/closed/wall/mainship/gray/outer,
 /area/antag_ship/som/security/cell)
@@ -8066,7 +8050,7 @@
 /area/antag_ship/icc/bathroom)
 "kQq" = (
 /obj/structure/bed/chair/office/light/east,
-/turf/open/floor/mainship/sterile/dark,
+/turf/open/floor/whitecyantwo,
 /area/antag_ship/clf_base/real/medbay)
 "kQU" = (
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -8233,7 +8217,7 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 8
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -8747,8 +8731,8 @@
 	},
 /obj/structure/closet/secure_closet/medical2,
 /obj/structure/window/reinforced/tinted,
-/turf/open/floor/mainship/sterile/corner{
-	dir = 8
+/turf/open/floor/whitecyanfour{
+	dir = 4
 	},
 /area/antag_ship/clf_base/real/medbay)
 "lHw" = (
@@ -8972,7 +8956,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 4
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -9120,7 +9104,7 @@
 	dir = 1
 	},
 /obj/structure/fulton_extraction_point,
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -9570,8 +9554,8 @@
 /obj/machinery/vending/MarineMed/icc/clf{
 	layer = 2.6
 	},
-/turf/open/floor/mainship/sterile/corner{
-	dir = 4
+/turf/open/floor/whitecyanfour{
+	dir = 8
 	},
 /area/antag_ship/clf_base/real/medbay)
 "mNs" = (
@@ -9737,7 +9721,7 @@
 "mWb" = (
 /obj/effect/turf_decal/siding/white,
 /obj/machinery/light,
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "mZv" = (
 /obj/machinery/door/airlock/mainship/generic{
@@ -10209,7 +10193,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -11275,7 +11259,7 @@
 	pixel_y = 15;
 	layer = 2.7
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -11314,6 +11298,11 @@
 /obj/item/vehicle_module/mounted_gun/minigun,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/hangar)
+"poG" = (
+/turf/open/floor/whitecyanthree{
+	dir = 6
+	},
+/area/antag_ship/clf_base/real/medbay)
 "ppC" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
@@ -11498,9 +11487,6 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
-"pBK" = (
-/turf/open/floor/freezer,
-/area/space)
 "pBY" = (
 /obj/machinery/door/airlock/multi_tile/mainship/secdoor/glass{
 	dir = 1;
@@ -11772,21 +11758,14 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/living_area)
-"pTY" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 10
-	},
-/obj/machinery/light,
-/turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/breakroom)
 "pUD" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
 /obj/machinery/bioprinter,
 /obj/item/reagent_containers/glass/beaker/biomass,
-/turf/open/floor/mainship/sterile/corner{
-	dir = 8
+/turf/open/floor/whitecyanfour{
+	dir = 4
 	},
 /area/antag_ship/clf_base/real/medbay)
 "pUN" = (
@@ -12359,7 +12338,7 @@
 /obj/machinery/vending/medical/clf{
 	layer = 2.6
 	},
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "qyd" = (
 /obj/effect/urban/decal/road/road_edge/four,
@@ -12506,7 +12485,7 @@
 	pixel_y = 17;
 	density = 0
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -12731,7 +12710,9 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 5
 	},
-/turf/open/floor/mainship/sterile/corner,
+/turf/open/floor/whitecyanfour{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "qUY" = (
 /obj/structure/closet/cabinet,
@@ -13090,8 +13071,14 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/requisition)
 "rvB" = (
-/turf/open/floor/mainship/sterile/side{
-	dir = 9
+/obj/machinery/holosign_switch{
+	id = CoE;
+	pixel_x = 9;
+	pixel_y = 23;
+	layer = 4.2
+	},
+/turf/open/floor/whitecyanthree{
+	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
 "rvQ" = (
@@ -14042,7 +14029,7 @@
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/adv,
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "sJU" = (
 /obj/structure/bed/chair/sofa/right,
@@ -14224,6 +14211,9 @@
 	dir = 6
 	},
 /area/space)
+"taT" = (
+/turf/open/floor/whitecyantwo,
+/area/antag_ship/clf_base/real/medbay)
 "tbJ" = (
 /turf/closed/mineral/smooth,
 /area/antag_ship/clf_base/caves/surface)
@@ -14313,6 +14303,11 @@
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
+"thO" = (
+/turf/open/floor/whitecyanthree{
+	dir = 9
+	},
+/area/antag_ship/clf_base/real/medbay)
 "tiY" = (
 /obj/structure/table/mainship,
 /obj/item/book/manual/engineering_construction,
@@ -14421,8 +14416,8 @@
 	dir = 6
 	},
 /obj/machinery/chem_master,
-/turf/open/floor/mainship/sterile/corner{
-	dir = 4
+/turf/open/floor/whitecyanfour{
+	dir = 8
 	},
 /area/antag_ship/clf_base/real/medbay)
 "tox" = (
@@ -15450,7 +15445,7 @@
 /area/antag_ship/icc/bathroom)
 "uBK" = (
 /obj/structure/window/reinforced/tinted,
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "uBZ" = (
 /obj/machinery/washing_machine,
@@ -15622,9 +15617,7 @@
 	dir = 8
 	},
 /obj/item/bedsheet/medical,
-/turf/open/floor/mainship/sterile/corner{
-	dir = 1
-	},
+/turf/open/floor/whitecyanfour,
 /area/antag_ship/clf_base/real/medbay)
 "uKR" = (
 /obj/effect/urban/decal/road/lines2,
@@ -16231,7 +16224,9 @@
 	pixel_y = 15;
 	layer = 2.7
 	},
-/turf/open/floor/mainship/sterile/corner,
+/turf/open/floor/whitecyanfour{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "vHH" = (
 /obj/structure/platform/urban/metalplatform4{
@@ -16565,7 +16560,7 @@
 /area/antag_ship/vsd/hall)
 "weU" = (
 /obj/effect/turf_decal/siding/white,
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "wfP" = (
 /turf/open/floor/carpet/side,
@@ -16882,7 +16877,7 @@
 	pixel_y = 18;
 	density = 0
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -17056,7 +17051,7 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
-/turf/open/floor/mainship/sterile/side{
+/turf/open/floor/whitecyanthree{
 	dir = 8
 	},
 /area/antag_ship/clf_base/real/medbay)
@@ -17248,11 +17243,6 @@
 /obj/machinery/vending/armor_supply/pmc,
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/center/armory)
-"xag" = (
-/turf/open/floor/mainship/sterile/side{
-	dir = 6
-	},
-/area/antag_ship/clf_base/real/medbay)
 "xax" = (
 /obj/structure/table/mainship,
 /obj/structure/transmitter/cm_net/desk{
@@ -17404,7 +17394,7 @@
 /obj/effect/turf_decal/siding/white,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/machinery/iv_drip,
-/turf/open/floor/mainship/sterile/side,
+/turf/open/floor/whitecyanthree,
 /area/antag_ship/clf_base/real/medbay)
 "xkI" = (
 /turf/open/urban/street/asphalt,
@@ -17748,6 +17738,13 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/preparation)
+"xJr" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/breakroom)
 "xJG" = (
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 6
@@ -30270,7 +30267,7 @@ djZ
 aGX
 eYL
 nRY
-cSX
+jAs
 sIu
 eYL
 tJq
@@ -41129,7 +41126,7 @@ vDr
 vDr
 vDr
 vDr
-pBK
+vDr
 vDr
 vDr
 vDr
@@ -41617,10 +41614,10 @@ hkQ
 hkQ
 sAm
 cwe
-hDQ
-hDQ
+taT
+taT
 uBK
-itg
+rvB
 eht
 sAm
 kjt
@@ -41713,8 +41710,8 @@ hkQ
 hkQ
 sAm
 qEN
-hDQ
-hDQ
+taT
+taT
 uBK
 cjr
 xke
@@ -41809,10 +41806,10 @@ hkQ
 hkQ
 sAm
 nFD
-hDQ
-xag
-juw
-rvB
+taT
+poG
+jQl
+thO
 mWb
 sAm
 kjt
@@ -41905,10 +41902,10 @@ hkQ
 hkQ
 sAm
 wFO
-hDQ
+taT
 sJK
 pmZ
-hDQ
+taT
 weU
 sAm
 kjt
@@ -42001,7 +41998,7 @@ tIL
 pNq
 sAm
 mdB
-hDQ
+taT
 qxA
 cyp
 kQq
@@ -42271,7 +42268,7 @@ rXM
 qkg
 jks
 ceD
-pTY
+xJr
 qkg
 lDr
 txH
