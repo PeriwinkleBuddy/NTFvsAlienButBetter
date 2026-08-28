@@ -10896,6 +10896,15 @@
 "oFh" = (
 /turf/open/floor/mainship_hull,
 /area/space)
+"oGd" = (
+/obj/structure/cable,
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/canteen)
 "oGk" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -13062,7 +13071,9 @@
 /area/antag_ship/vsd/hall)
 "ruJ" = (
 /obj/structure/bed/chair{
-	dir = 1
+	dir = 1;
+	pixel_y = 12;
+	layer = 2.81
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -13105,11 +13116,13 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/som/bridge/hall)
 "ryc" = (
-/obj/structure/bed/chair{
-	dir = 8
-	},
 /obj/structure/cable,
 /obj/effect/landmark/start/job/clf/standard,
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_x = -6;
+	pixel_y = 0
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "rys" = (
@@ -13178,7 +13191,9 @@
 /area/antag_ship/pmc_ntf/center/armory)
 "rBJ" = (
 /obj/structure/bed/chair{
-	dir = 8
+	dir = 8;
+	pixel_x = -6;
+	pixel_y = 0
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
@@ -13464,6 +13479,11 @@
 	pixel_y = 16;
 	density = 0;
 	pixel_x = 5
+	},
+/obj/item/coin/platinum{
+	pixel_x = 8;
+	pixel_y = 9;
+	layer = 2.89
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -14576,10 +14596,11 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/structure/bed/chair{
-	dir = 4
-	},
 /obj/effect/landmark/start/job/clf/standard,
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_x = 6
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "txJ" = (
@@ -15057,10 +15078,12 @@
 /area/antag_ship/vsd/hall)
 "ufb" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/bed/chair{
-	dir = 1
-	},
 /obj/effect/landmark/start/job/clf/standard,
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = 12;
+	layer = 2.81
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "ufH" = (
@@ -15092,7 +15115,8 @@
 	dir = 8
 	},
 /obj/structure/bed/chair{
-	dir = 4
+	dir = 4;
+	pixel_x = 6
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -15846,6 +15870,7 @@
 /obj/structure/cable,
 /obj/machinery/door/airlock/urban/personal_solid_white,
 /obj/effect/mapping_helpers/airlock_autoname,
+/obj/effect/turf_decal/siding/white/end,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "veg" = (
@@ -17235,7 +17260,9 @@
 "wZE" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/bed/chair{
-	dir = 1
+	dir = 1;
+	pixel_y = 12;
+	layer = 2.81
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
@@ -42464,9 +42491,9 @@ rDo
 mNs
 uHV
 rBJ
-rBJ
+oGd
 ryc
-rBJ
+oGd
 iho
 cJU
 rXo
