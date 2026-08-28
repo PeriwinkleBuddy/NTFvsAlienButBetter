@@ -435,7 +435,9 @@
 	pixel_x = 1;
 	pixel_y = 7
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "azH" = (
 /obj/structure/table/urban/shiny_black,
@@ -1830,7 +1832,9 @@
 	pixel_y = 24;
 	layer = 4.2
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "cjR" = (
 /turf/closed/wall/mainship/outer,
@@ -2000,7 +2004,9 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "cwk" = (
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -2052,7 +2058,9 @@
 	pixel_y = 15;
 	layer = 2.7
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "cyG" = (
 /obj/item/reagent_containers/cup/glass/waterbottle/empty,
@@ -2338,6 +2346,12 @@
 /obj/machinery/vending/snack,
 /turf/open/floor/plating/ground/dirt,
 /area/antag_ship/icc/hangar/east)
+"cSX" = (
+/obj/machinery/light/blue{
+	dir = 4
+	},
+/turf/open/floor/mainship/tcomms,
+/area/antag_ship/clf_base/real/reedroom)
 "cTq" = (
 /obj/effect/turf_decal/trimline/blue/warning{
 	dir = 8
@@ -3141,7 +3155,7 @@
 /obj/machinery/optable,
 /obj/item/tank/anesthetic,
 /obj/item/clothing/mask/breath/medical,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "ehz" = (
 /obj/machinery/vending/uniform_supply/icc,
@@ -3439,7 +3453,9 @@
 	dir = 4
 	},
 /obj/machinery/chem_dispenser,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 4
+	},
 /area/antag_ship/clf_base/real/medbay)
 "euh" = (
 /turf/closed/shuttle/ert{
@@ -4072,6 +4088,10 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/security/cell)
 "fuN" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/hyper{
+	dir = 8
+	},
 /turf/open/floor/mainship/sterile/side{
 	dir = 4
 	},
@@ -4100,12 +4120,6 @@
 	pixel_x = -17;
 	pixel_y = 11
 	},
-/obj/structure/table/wood{
-	density = 0;
-	alpha = 0;
-	name = "picnic blanket";
-	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!"
-	},
 /obj/item/trash/plate{
 	pixel_x = -17;
 	pixel_y = 15;
@@ -4115,6 +4129,14 @@
 	pixel_x = -6;
 	pixel_y = 14;
 	layer = 3.1
+	},
+/obj/structure/table/wood{
+	density = 0;
+	alpha = 0;
+	name = "picnic blanket";
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor"
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -5307,6 +5329,9 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/mess)
 "hfA" = (
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/mainship/sterile/side{
 	dir = 8
 	},
@@ -5640,13 +5665,19 @@
 	},
 /obj/effect/mapping_helpers/airlock_autoname,
 /obj/effect/mapping_helpers/airlock/free_access,
-/turf/open/floor/kutjevo/plate,
+/obj/machinery/holosign/surgery{
+	id = CoE
+	},
+/turf/open/floor/mainship/sterile,
 /area/antag_ship/clf_base/real/medbay)
 "hDG" = (
 /obj/structure/table/mainship,
 /obj/item/clothing/shoes/marine/icc/guard/knife,
 /turf/open/floor/plating,
 /area/antag_ship/icc/warehouse)
+"hDQ" = (
+/turf/open/floor/mainship/sterile/dark,
+/area/antag_ship/clf_base/real/medbay)
 "hEm" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/mainship/generic/glass{
@@ -6201,6 +6232,17 @@
 /obj/structure/cable,
 /turf/open/floor/plating/heatinggrate,
 /area/antag_ship/vsd/engi)
+"itg" = (
+/obj/machinery/holosign_switch{
+	id = CoE;
+	pixel_x = 9;
+	pixel_y = 23;
+	layer = 4.2
+	},
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/medbay)
 "itk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -6944,7 +6986,9 @@
 	density = 0;
 	alpha = 0;
 	name = "picnic blanket";
-	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!"
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor"
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -7010,6 +7054,11 @@
 "jup" = (
 /turf/open/floor/kutjevo/colors/orange/edge,
 /area/antag_ship/clf_base/real/dorms)
+"juw" = (
+/turf/open/floor/mainship/sterile/side{
+	dir = 10
+	},
+/area/antag_ship/clf_base/real/medbay)
 "juC" = (
 /obj/structure/prop/mainship/prop_sec{
 	dir = 4
@@ -8017,7 +8066,7 @@
 /area/antag_ship/icc/bathroom)
 "kQq" = (
 /obj/structure/bed/chair/office/light/east,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/dark,
 /area/antag_ship/clf_base/real/medbay)
 "kQU" = (
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -8184,7 +8233,9 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 8
+	},
 /area/antag_ship/clf_base/real/medbay)
 "ldB" = (
 /obj/effect/ai_node,
@@ -8297,15 +8348,17 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/staff)
 "ljk" = (
+/obj/item/flashlight/lantern{
+	pixel_x = -8;
+	pixel_y = -1
+	},
 /obj/structure/table/wood{
 	density = 0;
 	alpha = 0;
 	name = "picnic blanket";
-	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!"
-	},
-/obj/item/flashlight/lantern{
-	pixel_x = -8;
-	pixel_y = -1
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor"
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -8694,7 +8747,9 @@
 	},
 /obj/structure/closet/secure_closet/medical2,
 /obj/structure/window/reinforced/tinted,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 8
+	},
 /area/antag_ship/clf_base/real/medbay)
 "lHw" = (
 /obj/machinery/cic_maptable/droppod_maptable/icc,
@@ -8705,7 +8760,7 @@
 /obj/machinery/door/airlock/urban/generic_solid{
 	dir = 2
 	},
-/turf/open/floor/kutjevo/grey,
+/turf/open/floor/redone,
 /area/antag_ship/clf_base/real/reedroom)
 "lIG" = (
 /obj/structure/cable,
@@ -8917,7 +8972,9 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 4
+	},
 /area/antag_ship/clf_base/real/medbay)
 "lWU" = (
 /obj/structure/cable,
@@ -9063,7 +9120,9 @@
 	dir = 1
 	},
 /obj/structure/fulton_extraction_point,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "meb" = (
 /obj/structure/fulton_extraction_point,
@@ -9511,7 +9570,9 @@
 /obj/machinery/vending/MarineMed/icc/clf{
 	layer = 2.6
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 4
+	},
 /area/antag_ship/clf_base/real/medbay)
 "mNs" = (
 /obj/machinery/door/airlock/multi_tile/urban/generic_solid,
@@ -9676,7 +9737,7 @@
 "mWb" = (
 /obj/effect/turf_decal/siding/white,
 /obj/machinery/light,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "mZv" = (
 /obj/machinery/door/airlock/mainship/generic{
@@ -10148,7 +10209,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "nGS" = (
 /obj/structure/table/black,
@@ -11212,7 +11275,9 @@
 	pixel_y = 15;
 	layer = 2.7
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "pnr" = (
 /obj/structure/ladder,
@@ -11433,6 +11498,9 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
+"pBK" = (
+/turf/open/floor/freezer,
+/area/space)
 "pBY" = (
 /obj/machinery/door/airlock/multi_tile/mainship/secdoor/glass{
 	dir = 1;
@@ -11704,13 +11772,22 @@
 	},
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/living_area)
+"pTY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/breakroom)
 "pUD" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
 /obj/machinery/bioprinter,
 /obj/item/reagent_containers/glass/beaker/biomass,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 8
+	},
 /area/antag_ship/clf_base/real/medbay)
 "pUN" = (
 /obj/structure/largecrate/supply/explosives/mines,
@@ -11752,7 +11829,8 @@
 "pWk" = (
 /obj/machinery/hydroponics{
 	pixel_x = 0;
-	pixel_y = 25
+	pixel_y = 25;
+	density = 0
 	},
 /turf/open/floor/grass,
 /area/antag_ship/clf_base/facade/parklot)
@@ -11912,7 +11990,6 @@
 "qgi" = (
 /obj/structure/cable/multilayer/multiz,
 /obj/structure/ladder,
-/obj/structure/cable,
 /turf/open/floor/kutjevo/colors/orange/edge{
 	dir = 1
 	},
@@ -12282,7 +12359,7 @@
 /obj/machinery/vending/medical/clf{
 	layer = 2.6
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "qyd" = (
 /obj/effect/urban/decal/road/road_edge/four,
@@ -12429,7 +12506,9 @@
 	pixel_y = 17;
 	density = 0
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "qFb" = (
 /obj/machinery/door/airlock/command{
@@ -12652,7 +12731,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 5
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner,
 /area/antag_ship/clf_base/real/medbay)
 "qUY" = (
 /obj/structure/closet/cabinet,
@@ -13011,7 +13090,9 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/requisition)
 "rvB" = (
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 9
+	},
 /area/antag_ship/clf_base/real/medbay)
 "rvQ" = (
 /obj/effect/landmark/start/job/pmc,
@@ -13312,7 +13393,6 @@
 /area/antag_ship/icc/medical_room)
 "rPI" = (
 /obj/structure/ladder,
-/obj/structure/cable,
 /obj/structure/cable/multilayer/multiz,
 /turf/open/floor/orange_icorner,
 /area/antag_ship/clf_base/real/reedroom)
@@ -13698,7 +13778,9 @@
 	density = 0;
 	alpha = 0;
 	name = "picnic blanket";
-	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!"
+	desc = "A neatly laid out blanket for having a romantic picnic on. This is actually an invisible table that has it's 'density' set to '0', meaning you can walk on it, try placing things on the 'blanket'!";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "cuppafloor"
 	},
 /turf/open/floor/urban/tile/cuppajoesfloor{
 	barefootstep = "carpet";
@@ -13960,7 +14042,7 @@
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/adv,
 /obj/item/storage/firstaid/adv,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "sJU" = (
 /obj/structure/bed/chair/sofa/right,
@@ -14339,7 +14421,9 @@
 	dir = 6
 	},
 /obj/machinery/chem_master,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 4
+	},
 /area/antag_ship/clf_base/real/medbay)
 "tox" = (
 /turf/open/floor/plating/icefloor/warnplate,
@@ -14432,7 +14516,7 @@
 /area/shuttle/transport)
 "ttj" = (
 /obj/machinery/door/airlock/urban/generic_solid,
-/turf/open/floor/kutjevo/grey,
+/turf/open/floor/kutjevo/colors/purple,
 /area/antag_ship/clf_base/real/reedroom)
 "ttF" = (
 /turf/closed/shuttle/dropship_regular/backwall,
@@ -15366,7 +15450,7 @@
 /area/antag_ship/icc/bathroom)
 "uBK" = (
 /obj/structure/window/reinforced/tinted,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "uBZ" = (
 /obj/machinery/washing_machine,
@@ -15491,10 +15575,10 @@
 	},
 /area/antag_ship/clf_base/real/dorms)
 "uID" = (
-/obj/machinery/power/apc/hyper{
-	dir = 8
-	},
 /obj/structure/cable,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/mainship/sterile/side{
 	dir = 4
 	},
@@ -15538,7 +15622,9 @@
 	dir = 8
 	},
 /obj/item/bedsheet/medical,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "uKR" = (
 /obj/effect/urban/decal/road/lines2,
@@ -16145,7 +16231,7 @@
 	pixel_y = 15;
 	layer = 2.7
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/corner,
 /area/antag_ship/clf_base/real/medbay)
 "vHH" = (
 /obj/structure/platform/urban/metalplatform4{
@@ -16479,7 +16565,7 @@
 /area/antag_ship/vsd/hall)
 "weU" = (
 /obj/effect/turf_decal/siding/white,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "wfP" = (
 /turf/open/floor/carpet/side,
@@ -16796,7 +16882,9 @@
 	pixel_y = 18;
 	density = 0
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/medbay)
 "wGD" = (
 /obj/structure/cable,
@@ -16968,7 +17056,9 @@
 	pixel_x = 0;
 	pixel_y = 0
 	},
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side{
+	dir = 8
+	},
 /area/antag_ship/clf_base/real/medbay)
 "wQZ" = (
 /obj/machinery/disposal,
@@ -17158,6 +17248,11 @@
 /obj/machinery/vending/armor_supply/pmc,
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/center/armory)
+"xag" = (
+/turf/open/floor/mainship/sterile/side{
+	dir = 6
+	},
+/area/antag_ship/clf_base/real/medbay)
 "xax" = (
 /obj/structure/table/mainship,
 /obj/structure/transmitter/cm_net/desk{
@@ -17309,7 +17404,7 @@
 /obj/effect/turf_decal/siding/white,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/machinery/iv_drip,
-/turf/open/floor/tile/white/hall/full,
+/turf/open/floor/mainship/sterile/side,
 /area/antag_ship/clf_base/real/medbay)
 "xkI" = (
 /turf/open/urban/street/asphalt,
@@ -30175,7 +30270,7 @@ djZ
 aGX
 eYL
 nRY
-gpt
+cSX
 sIu
 eYL
 tJq
@@ -41034,7 +41129,7 @@ vDr
 vDr
 vDr
 vDr
-vDr
+pBK
 vDr
 vDr
 vDr
@@ -41522,10 +41617,10 @@ hkQ
 hkQ
 sAm
 cwe
-rvB
-rvB
+hDQ
+hDQ
 uBK
-rvB
+itg
 eht
 sAm
 kjt
@@ -41618,8 +41713,8 @@ hkQ
 hkQ
 sAm
 qEN
-rvB
-rvB
+hDQ
+hDQ
 uBK
 cjr
 xke
@@ -41714,9 +41809,9 @@ hkQ
 hkQ
 sAm
 nFD
-rvB
-rvB
-rvB
+hDQ
+xag
+juw
 rvB
 mWb
 sAm
@@ -41810,10 +41905,10 @@ hkQ
 hkQ
 sAm
 wFO
-rvB
+hDQ
 sJK
 pmZ
-rvB
+hDQ
 weU
 sAm
 kjt
@@ -41906,7 +42001,7 @@ tIL
 pNq
 sAm
 mdB
-rvB
+hDQ
 qxA
 cyp
 kQq
@@ -42176,7 +42271,7 @@ rXM
 qkg
 jks
 ceD
-pmQ
+pTY
 qkg
 lDr
 txH
