@@ -5978,12 +5978,6 @@
 /obj/structure/cable,
 /turf/open/floor/prison/redfloor,
 /area/antag_ship/vsd/bridge)
-"ibq" = (
-/obj/structure/cable,
-/turf/open/urban/street/sidewalk{
-	dir = 9
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "iby" = (
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/medbay)
@@ -7383,8 +7377,8 @@
 /area/antag_ship/icc/living_area)
 "jWb" = (
 /obj/structure/cable,
-/turf/open/floor/orange_icorner{
-	dir = 4
+/turf/open/floor/orange_edge{
+	dir = 10
 	},
 /area/antag_ship/clf_base/real/reedroom)
 "jWE" = (
@@ -8916,6 +8910,12 @@
 	},
 /turf/open/floor/mainship/sterile/dark,
 /area/antag_ship/som/office/commander/field)
+"lSE" = (
+/obj/structure/cable,
+/turf/open/floor/orange_edge{
+	dir = 9
+	},
+/area/antag_ship/clf_base/real/reedroom)
 "lTC" = (
 /turf/closed/mineral/smooth/desertdamrockwall/indestructible,
 /area/antag_ship)
@@ -9194,17 +9194,10 @@
 /turf/open/floor/grass,
 /area/antag_ship/icc/living_area)
 "mly" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
+/turf/open/floor/orange_edge{
+	dir = 1
 	},
-/obj/structure/table/urban/shiny_brown,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/fakechapel)
+/area/antag_ship/clf_base/real/reedroom)
 "mlW" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mainship/mono,
@@ -10447,9 +10440,17 @@
 	},
 /area/antag_ship/vsd/hall)
 "nXJ" = (
-/obj/structure/cable,
-/turf/open/floor/orange_cover,
-/area/antag_ship/clf_base/real/reedroom)
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/table/urban/shiny_brown,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/fakechapel)
 "nYi" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -12099,8 +12100,8 @@
 /turf/open/floor/redtwo,
 /area/antag_ship/som/security)
 "qkA" = (
-/turf/open/floor/orange_icorner{
-	dir = 1
+/turf/open/floor/orange_edge{
+	dir = 4
 	},
 /area/antag_ship/clf_base/real/reedroom)
 "qlf" = (
@@ -12121,7 +12122,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/orange_icorner{
+/turf/open/floor/orange_edge{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/reedroom)
@@ -12129,6 +12130,12 @@
 /obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/mainship/black/full,
 /area/antag_ship/pmc_ntf/center/armory)
+"qma" = (
+/obj/structure/cable,
+/turf/open/urban/street/sidewalk{
+	dir = 9
+	},
+/area/antag_ship/clf_base/facade/parklot)
 "qmb" = (
 /obj/machinery/autodoc,
 /turf/open/floor/mainship/mono,
@@ -13411,7 +13418,9 @@
 "rPI" = (
 /obj/structure/ladder,
 /obj/structure/cable/multilayer/multiz,
-/turf/open/floor/orange_icorner,
+/turf/open/floor/orange_edge{
+	dir = 1
+	},
 /area/antag_ship/clf_base/real/reedroom)
 "rQg" = (
 /obj/structure/table/black,
@@ -29550,7 +29559,7 @@ sjA
 uVj
 eYL
 qlq
-efF
+vbZ
 nUp
 nwG
 dWq
@@ -29645,8 +29654,8 @@ how
 how
 how
 lIx
-nUp
-nUp
+mly
+vbZ
 nUp
 nwG
 vbZ
@@ -29743,8 +29752,8 @@ uMU
 eYL
 rPI
 jWb
-nXJ
-nwG
+bBL
+lSE
 vbZ
 eYL
 aGX
@@ -29838,8 +29847,8 @@ liq
 kKu
 eYL
 kvl
-efF
-nUp
+qkA
+qkA
 qkA
 efF
 eYL
@@ -42111,7 +42120,7 @@ bzt
 jNy
 jNy
 qsn
-mly
+nXJ
 oyr
 isR
 hTm
@@ -44035,7 +44044,7 @@ pWk
 fbt
 fbt
 fbt
-ibq
+qma
 tQI
 gcW
 fbt
