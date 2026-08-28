@@ -607,12 +607,12 @@
 "aKx" = (
 /obj/structure/largecrate/supply/supplies/plasteel{
 	pixel_x = 0;
-	pixel_y = 10
+	pixel_y = 26;
+	layer = 3.1
 	},
 /obj/structure/largecrate/supply/supplies/metal{
 	pixel_x = 0;
-	pixel_y = 26;
-	layer = 3.1
+	pixel_y = 10
 	},
 /turf/open/floor/kutjevo/colors/yellow/edge{
 	dir = 1
@@ -780,6 +780,7 @@
 /turf/open/floor/mainship/sterile,
 /area/antag_ship/som/medbay)
 "aXU" = (
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "aZi" = (
@@ -805,7 +806,6 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "baG" = (
@@ -1873,12 +1873,11 @@
 /turf/closed/wall/mainship/gray/outer,
 /area/antag_ship/som/mess/officers)
 "cok" = (
-/obj/machinery/door/airlock/urban/generic,
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 4
 	},
-/obj/structure/cable,
 /obj/effect/mapping_helpers/airlock_autoname,
+/obj/machinery/door/airlock/urban/generic,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "coq" = (
@@ -2499,6 +2498,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "dhn" = (
@@ -3104,7 +3104,7 @@
 	dir = 1
 	},
 /obj/machinery/vending/coffee{
-	pixel_x = -3;
+	pixel_x = 0;
 	pixel_y = 16;
 	density = 0
 	},
@@ -3729,11 +3729,6 @@
 	dir = 5
 	},
 /obj/structure/table/urban/shiny_brown,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "eQm" = (
@@ -4323,6 +4318,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock_autoname,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "fJj" = (
@@ -4447,7 +4443,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/microwave{
-	pixel_x = 0;
+	pixel_x = -4;
 	pixel_y = 10
 	},
 /turf/open/floor/tile/white/hall/full,
@@ -4770,16 +4766,6 @@
 /area/antag_ship/icc/commcenter)
 "goN" = (
 /obj/structure/cable,
-/obj/item/reagent_containers/food/snacks/upp/fish{
-	pixel_x = 7;
-	pixel_y = 22;
-	layer = 3.2
-	},
-/obj/item/trash/plate{
-	pixel_x = 9;
-	pixel_y = 20;
-	layer = 3.1
-	},
 /turf/open/floor/orange_edge{
 	dir = 6
 	},
@@ -6111,7 +6097,10 @@
 /area/antag_ship/clf_base/facade/parklot)
 "ijE" = (
 /obj/structure/cable,
-/obj/structure/bed/chair/office/dark/north,
+/obj/structure/bed/chair/office/dark/north{
+	pixel_x = 0;
+	pixel_y = 10
+	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "ijO" = (
@@ -6326,7 +6315,6 @@
 /turf/open/floor/prison/blackfloor,
 /area/antag_ship/vsd/hall)
 "iAQ" = (
-/obj/structure/cable,
 /turf/open/urban/street/sidewalk,
 /area/antag_ship/clf_base/facade/parklot)
 "iAR" = (
@@ -6458,6 +6446,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "iMZ" = (
@@ -6836,12 +6825,12 @@
 /obj/machinery/vending/hydronutrients{
 	density = 0;
 	pixel_y = 16;
-	pixel_x = -5
+	pixel_x = -4
 	},
 /obj/machinery/vending/hydroseeds{
 	density = 0;
 	pixel_y = 16;
-	pixel_x = 16
+	pixel_x = 19
 	},
 /turf/open/floor/urban/wood/darkerwood,
 /area/antag_ship/clf_base/facade/parklot)
@@ -7207,6 +7196,12 @@
 	dir = 1
 	},
 /area/shuttle/transport)
+"jGH" = (
+/obj/structure/cable,
+/turf/open/urban/street/sidewalk{
+	dir = 9
+	},
+/area/antag_ship/clf_base/facade/parklot)
 "jGW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/mainship/sterile,
@@ -9016,7 +9011,10 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/hangar/west)
 "lYS" = (
-/obj/machinery/power/geothermal/reinforced,
+/obj/machinery/power/geothermal/reinforced{
+	pixel_x = -2;
+	pixel_y = -3
+	},
 /obj/structure/cable,
 /obj/machinery/power/terminal{
 	dir = 8
@@ -9191,11 +9189,17 @@
 /turf/open/floor/grass,
 /area/antag_ship/icc/living_area)
 "mly" = (
-/obj/structure/cable,
-/turf/open/urban/street/sidewalk{
-	dir = 10
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
-/area/antag_ship/clf_base/facade/parklot)
+/obj/structure/table/urban/shiny_brown,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/fakechapel)
 "mlW" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/mainship/mono,
@@ -9284,7 +9288,10 @@
 /turf/open/floor/mainship/sterile/plain,
 /area/antag_ship/pmc_ntf/center/armory)
 "mtG" = (
-/obj/machinery/power/geothermal/reinforced,
+/obj/machinery/power/geothermal/reinforced{
+	pixel_x = -2;
+	pixel_y = -3
+	},
 /obj/structure/cable,
 /obj/machinery/power/terminal{
 	dir = 4
@@ -9423,7 +9430,7 @@
 	dir = 1
 	},
 /obj/machinery/vending/cola{
-	pixel_x = 7;
+	pixel_x = 9;
 	pixel_y = 16;
 	density = 0
 	},
@@ -10743,6 +10750,7 @@
 /area/antag_ship/som/medbay/morgue)
 "otN" = (
 /obj/structure/table/reinforced,
+/obj/item/book/manual/chef_recipes,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "otO" = (
@@ -10955,6 +10963,7 @@
 /turf/open/floor/prison/redfloor,
 /area/antag_ship/vsd/bridge)
 "oLs" = (
+/obj/structure/cable,
 /turf/open/urban/street/sidewalk{
 	dir = 1
 	},
@@ -11484,6 +11493,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "pBB" = (
@@ -11616,14 +11626,14 @@
 /area/antag_ship/vsd/engi)
 "pHA" = (
 /obj/effect/turf_decal/siding/wood{
-	dir = 4
+	dir = 8
 	},
 /obj/structure/table/urban/shiny_brown,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "pHV" = (
@@ -12053,7 +12063,6 @@
 	},
 /area/antag_ship/som/bridge/hall)
 "qjV" = (
-/obj/structure/cable,
 /turf/open/urban/street/sidewalkcorner{
 	dir = 8
 	},
@@ -12103,16 +12112,6 @@
 "qlq" = (
 /obj/machinery/light{
 	dir = 1
-	},
-/obj/structure/bed/bedroll/sec{
-	pixel_x = 0;
-	pixel_y = -5;
-	name = "dog bed";
-	desc = "A dog bed laden with embroidered depictions of strange runes of a bygone era. Laying down on this fills you with a slight feeling of dread, but that might just be because you can feel the owner of the bed judging you."
-	},
-/mob/living/simple_animal/cat/salem{
-	verb_say = "meows";
-	verb_whisper = "hisses"
 	},
 /turf/open/floor/orange_icorner{
 	dir = 1
@@ -12249,9 +12248,20 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/living_area)
 "qsn" = (
-/obj/structure/cable,
-/turf/open/urban/street/sidewalkfull,
-/area/antag_ship/clf_base/facade/parklot)
+/obj/structure/bed/bedroll/sec{
+	pixel_x = 0;
+	pixel_y = -5;
+	name = "cat bed";
+	desc = "A cat bed laden with embroidered depictions of strange runes of a bygone era. Laying down on this fills you with a slight feeling of dread, but that might just be because you can feel the owner of the bed judging you."
+	},
+/mob/living/simple_animal/cat/salem{
+	verb_say = "meows";
+	verb_whisper = "hisses"
+	},
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/dorms)
 "qsr" = (
 /obj/machinery/computer/body_scanconsole,
 /turf/open/floor/prison/whitegreen/corner{
@@ -12397,12 +12407,12 @@
 /area/antag_ship/icc/prisoner_holding)
 "qAM" = (
 /obj/machinery/vending/tool{
-	pixel_x = -5;
+	pixel_x = -3;
 	pixel_y = 17;
 	density = 0
 	},
 /obj/machinery/vending/engivend/clf{
-	pixel_x = 16;
+	pixel_x = 20;
 	pixel_y = 17;
 	density = 0
 	},
@@ -13478,12 +13488,12 @@
 /obj/machinery/vending/marineFood/som{
 	pixel_y = 16;
 	density = 0;
-	pixel_x = 5
+	pixel_x = 7
 	},
 /obj/item/coin/platinum{
-	pixel_x = 8;
-	pixel_y = 9;
-	layer = 2.89
+	pixel_x = 11;
+	layer = 2.89;
+	pixel_y = 6
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -13621,7 +13631,7 @@
 	density = 0
 	},
 /obj/machinery/vending/snack{
-	pixel_x = 17;
+	pixel_x = 18;
 	pixel_y = 16;
 	density = 0
 	},
@@ -14397,7 +14407,6 @@
 /area/antag_ship/som/medbay)
 "tmU" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "tnq" = (
@@ -17843,7 +17852,6 @@
 "xQy" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/light,
-/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "xSc" = (
@@ -17907,6 +17915,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/entryway)
 "xXd" = (
@@ -42096,8 +42105,8 @@ bGB
 bzt
 jNy
 jNy
-oyr
-oyr
+mly
+pHA
 oyr
 isR
 hTm
@@ -42592,7 +42601,7 @@ kyd
 kyd
 jox
 cJU
-uIB
+qsn
 wyD
 wyD
 wyD
@@ -43342,7 +43351,7 @@ oRF
 kjt
 bGB
 eQj
-pHA
+yhP
 rJF
 yhP
 rJF
@@ -44021,9 +44030,9 @@ pWk
 fbt
 fbt
 fbt
-hxu
+jGH
 tQI
-mly
+gcW
 fbt
 fbt
 wzT
@@ -44310,7 +44319,7 @@ rWr
 rWr
 rWr
 rgZ
-qsn
+xLj
 qjV
 dUp
 dUp
