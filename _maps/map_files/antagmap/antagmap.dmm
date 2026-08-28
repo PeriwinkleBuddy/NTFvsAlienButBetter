@@ -5978,6 +5978,12 @@
 /obj/structure/cable,
 /turf/open/floor/prison/redfloor,
 /area/antag_ship/vsd/bridge)
+"ibq" = (
+/obj/structure/cable,
+/turf/open/urban/street/sidewalk{
+	dir = 9
+	},
+/area/antag_ship/clf_base/facade/parklot)
 "iby" = (
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/medbay)
@@ -7196,12 +7202,6 @@
 	dir = 1
 	},
 /area/shuttle/transport)
-"jGH" = (
-/obj/structure/cable,
-/turf/open/urban/street/sidewalk{
-	dir = 9
-	},
-/area/antag_ship/clf_base/facade/parklot)
 "jGW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/mainship/sterile,
@@ -9144,8 +9144,13 @@
 	},
 /obj/structure/table/urban/shiny_black,
 /obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = 12;
-	pixel_y = 17
+	pixel_x = 16;
+	pixel_y = 16;
+	layer = 3.1
+	},
+/obj/item/pda/large/purple{
+	pixel_x = 0;
+	pixel_y = 18
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -9193,11 +9198,11 @@
 	dir = 8
 	},
 /obj/structure/table/urban/shiny_brown,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
-/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
+/obj/item/reagent_containers/food/snacks/grown/poppy,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "mlW" = (
@@ -11625,17 +11630,20 @@
 /turf/open/floor/prison,
 /area/antag_ship/vsd/engi)
 "pHA" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
+/obj/structure/bed/bedroll/sec{
+	pixel_x = 0;
+	pixel_y = -5;
+	name = "cat bed";
+	desc = "A cat bed laden with embroidered depictions of strange runes of a bygone era. Laying down on this fills you with a slight feeling of dread, but that might just be because you can feel the owner of the bed judging you."
 	},
-/obj/structure/table/urban/shiny_brown,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/obj/item/reagent_containers/food/snacks/grown/poppy,
-/turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/fakechapel)
+/mob/living/simple_animal/cat/salem{
+	verb_say = "meows";
+	verb_whisper = "hisses"
+	},
+/turf/open/floor/kutjevo/colors/purple/edge{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/dorms)
 "pHV" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -12248,20 +12256,17 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/living_area)
 "qsn" = (
-/obj/structure/bed/bedroll/sec{
-	pixel_x = 0;
-	pixel_y = -5;
-	name = "cat bed";
-	desc = "A cat bed laden with embroidered depictions of strange runes of a bygone era. Laying down on this fills you with a slight feeling of dread, but that might just be because you can feel the owner of the bed judging you."
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
-/mob/living/simple_animal/cat/salem{
-	verb_say = "meows";
-	verb_whisper = "hisses"
-	},
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
-	},
-/area/antag_ship/clf_base/real/dorms)
+/obj/structure/table/urban/shiny_brown,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/obj/item/reagent_containers/food/snacks/grown/harebell,
+/turf/open/floor/wood,
+/area/antag_ship/clf_base/facade/fakechapel)
 "qsr" = (
 /obj/machinery/computer/body_scanconsole,
 /turf/open/floor/prison/whitegreen/corner{
@@ -42105,8 +42110,8 @@ bGB
 bzt
 jNy
 jNy
+qsn
 mly
-pHA
 oyr
 isR
 hTm
@@ -42601,7 +42606,7 @@ kyd
 kyd
 jox
 cJU
-qsn
+pHA
 wyD
 wyD
 wyD
@@ -44030,7 +44035,7 @@ pWk
 fbt
 fbt
 fbt
-jGH
+ibq
 tQI
 gcW
 fbt
