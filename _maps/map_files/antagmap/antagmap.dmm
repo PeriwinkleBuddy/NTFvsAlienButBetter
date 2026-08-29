@@ -9098,10 +9098,7 @@
 	},
 /area/antag_ship/clf_base/real/dorms)
 "mdB" = (
-/obj/structure/fulton_extraction_point{
-	pixel_x = 0;
-	pixel_y = 16
-	},
+/obj/structure/fulton_extraction_point,
 /turf/open/floor/whitecyantwo,
 /area/antag_ship/clf_base/real/medbay)
 "meb" = (
@@ -41758,8 +41755,8 @@ hkQ
 hkQ
 sAm
 qEN
-taT
 mdB
+taT
 uBK
 cjr
 xke
