@@ -4911,6 +4911,10 @@
 	},
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
+"gzN" = (
+/obj/structure/closet/wardrobe,
+/turf/open/floor/kutjevo,
+/area/antag_ship/clf_base/real/dorms)
 "gCp" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -8710,8 +8714,8 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/upperladders)
 "lGU" = (
-/obj/machinery/door/airlock/secure,
 /obj/effect/mapping_helpers/airlock/free_access,
+/obj/machinery/door/airlock/vault,
 /turf/open/floor/mainship/tcomms,
 /area/antag_ship/clf_base/real/reedroom)
 "lGZ" = (
@@ -11999,7 +12003,8 @@
 "qgk" = (
 /obj/structure/closet/secure_closet/engineering_electrical{
 	pixel_x = 8;
-	pixel_y = 16
+	pixel_y = 16;
+	density = 0
 	},
 /turf/open/floor/kutjevo/colors/yellow/edge{
 	dir = 1
@@ -43477,9 +43482,9 @@ cJU
 uqH
 wyD
 kIe
-kIe
-kIe
-kIe
+gzN
+gzN
+gzN
 kIe
 oMz
 sPf
