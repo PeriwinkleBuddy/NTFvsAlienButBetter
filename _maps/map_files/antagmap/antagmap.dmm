@@ -43,6 +43,13 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/transmitter/clf_net{
+	phone_category = "Church Base";
+	pixel_x = 18;
+	pixel_y = 6;
+	dir = 8;
+	phone_id = "Gambling Room"
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
 "acM" = (
@@ -1426,6 +1433,15 @@
 /obj/effect/spawner/random/engineering/technology_scanner,
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/hangar/east)
+"bIK" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/hyper{
+	dir = 8
+	},
+/turf/open/floor/kutjevo/colors/orange/edge{
+	dir = 4
+	},
+/area/antag_ship/clf_base/real/requisition)
 "bIZ" = (
 /obj/structure/sign/prop2{
 	dir = 4
@@ -1700,8 +1716,12 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/som/mess)
 "ccR" = (
-/obj/machinery/power/apc/hyper,
-/obj/structure/cable,
+/obj/structure/transmitter/clf_net{
+	phone_category = "Church Base";
+	pixel_y = 32;
+	pixel_x = 0;
+	phone_id = "Requisitions"
+	},
 /turf/open/floor/kutjevo/colors/orange/edge{
 	dir = 1
 	},
@@ -4318,6 +4338,13 @@
 	},
 /area/antag_ship/clf_base/real/engi)
 "fIr" = (
+/obj/structure/transmitter/clf_net{
+	phone_category = "Church Base";
+	dir = 4;
+	pixel_x = -18;
+	pixel_y = 2;
+	phone_id = "Basement"
+	},
 /turf/open/floor/purpfour{
 	dir = 4
 	},
@@ -4501,6 +4528,11 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/structure/transmitter/clf_net{
+	phone_category = "Church Base";
+	phone_id = "Dining Room";
+	pixel_y = 32
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/canteen)
 "fXj" = (
@@ -4940,6 +4972,10 @@
 "gDT" = (
 /turf/closed/wall/mainship/gray,
 /area/antag_ship/som/bathroom)
+"gDW" = (
+/obj/structure/cable,
+/turf/open/floor/kutjevo,
+/area/antag_ship/clf_base/real/requisition)
 "gEe" = (
 /obj/machinery/door/airlock/mainship/generic/bathroom/toilet{
 	dir = 2
@@ -5804,7 +5840,7 @@
 "hRv" = (
 /obj/machinery/chem_dispenser/beer{
 	pixel_y = 22;
-	pixel_x = -6
+	pixel_x = -5
 	},
 /obj/structure/table/urban/shiny_brown,
 /obj/item/reagent_containers/food/drinks/shaker{
@@ -7295,6 +7331,12 @@
 	pixel_y = 16;
 	density = 0
 	},
+/obj/structure/transmitter/clf_net{
+	phone_category = "Church Base";
+	pixel_y = 32;
+	pixel_x = 7;
+	phone_id = "Engineering"
+	},
 /turf/open/floor/kutjevo/colors/yellow/edge{
 	dir = 1
 	},
@@ -7707,6 +7749,12 @@
 /obj/item/ashtray/bronze{
 	pixel_x = -5;
 	pixel_y = 2
+	},
+/obj/structure/transmitter/clf_net/desk{
+	phone_category = "Church Base";
+	phone_id = "Smoking Lounge";
+	pixel_x = 7;
+	pixel_y = 8
 	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/breakroom)
@@ -9154,8 +9202,8 @@
 	},
 /obj/structure/table/urban/shiny_black,
 /obj/structure/transmitter/clf_net/desk{
-	phone_category = "Cult Base";
-	phone_id = "Base";
+	phone_category = "Church Base";
+	phone_id = "Office";
 	pixel_x = -5;
 	pixel_y = 15
 	},
@@ -9842,6 +9890,19 @@
 "ngF" = (
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/generator_room)
+"nhd" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/transmitter/clf_net{
+	phone_category = "Church Base";
+	pixel_y = 32;
+	phone_id = "Medical"
+	},
+/turf/open/floor/whitecyanthree{
+	dir = 1
+	},
+/area/antag_ship/clf_base/real/medbay)
 "niG" = (
 /obj/structure/morgue,
 /turf/open/floor/mainship/sterile/white,
@@ -10328,6 +10389,12 @@
 	dir = 5
 	},
 /obj/structure/table/reinforced,
+/obj/structure/transmitter/clf_net/desk{
+	phone_category = "Church Base";
+	pixel_x = 4;
+	pixel_y = 7;
+	phone_id = "Kitchen"
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "nQZ" = (
@@ -42070,7 +42137,7 @@ qpK
 tIL
 pNq
 sAm
-cwe
+nhd
 taT
 qxA
 cyp
@@ -42647,7 +42714,7 @@ wyD
 obm
 tNf
 fQh
-fHK
+gDW
 fHK
 fHK
 qwY
@@ -42743,7 +42810,7 @@ kIe
 bPu
 jev
 kBQ
-qTB
+bIK
 vuP
 qTB
 qTB
