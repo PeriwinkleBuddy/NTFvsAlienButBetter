@@ -9098,13 +9098,11 @@
 	},
 /area/antag_ship/clf_base/real/dorms)
 "mdB" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
+/obj/structure/fulton_extraction_point{
+	pixel_x = 0;
+	pixel_y = 16
 	},
-/obj/structure/fulton_extraction_point,
-/turf/open/floor/whitecyanthree{
-	dir = 1
-	},
+/turf/open/floor/whitecyantwo,
 /area/antag_ship/clf_base/real/medbay)
 "meb" = (
 /obj/structure/fulton_extraction_point,
@@ -41761,7 +41759,7 @@ hkQ
 sAm
 qEN
 taT
-taT
+mdB
 uBK
 cjr
 xke
@@ -42047,7 +42045,7 @@ qpK
 tIL
 pNq
 sAm
-mdB
+cwe
 taT
 qxA
 cyp
