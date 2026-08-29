@@ -933,10 +933,14 @@
 "bjL" = (
 /obj/structure/closet/wardrobe,
 /obj/structure/window/reinforced/tinted{
-	dir = 8
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 0
 	},
 /obj/structure/window/reinforced/tinted{
-	layer = 4.2
+	layer = 4.2;
+	pixel_x = -2;
+	pixel_y = 0
 	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
@@ -1060,7 +1064,6 @@
 /turf/open/floor/wood,
 /area/antag_ship/som/office/commander/field)
 "boA" = (
-/obj/machinery/vending/weapon/clf,
 /turf/open/floor/kutjevo/colors/red/edge{
 	dir = 8
 	},
@@ -2170,6 +2173,9 @@
 	},
 /area/antag_ship/icc/hangar/east)
 "cIK" = (
+/obj/structure/table/mainship{
+	color = "#848484"
+	},
 /turf/open/floor/kutjevo/colors/red/edge,
 /area/antag_ship/clf_base/real/armory)
 "cJg" = (
@@ -2261,7 +2267,9 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/security/cell)
 "cPg" = (
-/obj/machinery/loadout_vendor/clf,
+/obj/structure/table/mainship{
+	color = "#848484"
+	},
 /turf/open/floor/kutjevo/colors/red/inner_corner{
 	dir = 4
 	},
@@ -3245,8 +3253,10 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/structure/table/mainship,
 /obj/item/storage/toolbox/syndicate,
+/obj/structure/table/mainship{
+	color = "#848484"
+	},
 /turf/open/floor/kutjevo/colors/yellow/edge{
 	dir = 4
 	},
@@ -4029,9 +4039,7 @@
 /turf/open/floor/carpet/blue,
 /area/antag_ship/som/office/commander/field)
 "frS" = (
-/obj/structure/bed/chair/stasis/explo{
-	anchored = 1
-	},
+/obj/structure/closet/wardrobe,
 /turf/open/floor/kutjevo/colors/purple/inner_corner{
 	dir = 1
 	},
@@ -4253,7 +4261,9 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/icc/hangar/west)
 "fEO" = (
-/obj/structure/table/mainship,
+/obj/structure/table/mainship{
+	color = "#848484"
+	},
 /obj/effect/teleporter_linker/indestructible,
 /turf/open/floor/kutjevo/colors/orange/inner_corner,
 /area/antag_ship/clf_base/real/dorms)
@@ -4456,7 +4466,9 @@
 /area/antag_ship/icc/generator_room)
 "fUy" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 8
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 0
 	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
@@ -4473,7 +4485,6 @@
 /turf/open/floor/wood/darker,
 /area/antag_ship/pmc_ntf/port/quarters)
 "fVZ" = (
-/obj/machinery/vending/armor_supply/icc/clf,
 /turf/open/floor/kutjevo/colors/red/edge{
 	dir = 4
 	},
@@ -4912,7 +4923,7 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "gzN" = (
-/obj/structure/closet/wardrobe,
+/obj/machinery/vending/uniform_supply/icc/clf,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "gCp" = (
@@ -5176,13 +5187,7 @@
 /turf/open/floor/iron/dark/textured_edge,
 /area/antag_ship/vsd/med)
 "gWT" = (
-/obj/structure/cable,
-/obj/structure/table/urban/shiny_black,
-/obj/machinery/computer/communications/coe{
-	dir = 4;
-	pixel_x = 0;
-	pixel_y = 8
-	},
+/obj/machinery/loadout_vendor/clf,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "gXg" = (
@@ -5524,7 +5529,9 @@
 /turf/closed/wall/mainship/gray/outer,
 /area/antag_ship/som/bathroom/lower)
 "hrG" = (
-/obj/machinery/vending/uniform_supply/icc/clf,
+/obj/structure/table/mainship{
+	color = "#848484"
+	},
 /turf/open/floor/kutjevo/colors/red/inner_corner{
 	dir = 8
 	},
@@ -5769,14 +5776,16 @@
 /turf/open/urban/street/asphalt,
 /area/antag_ship/clf_base/facade/parklot)
 "hPF" = (
-/obj/structure/table/mainship{
-	color = "#848484"
-	},
 /obj/machinery/light/mainship/small{
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 8
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/obj/structure/table/mainship{
+	color = "#848484"
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -6740,7 +6749,6 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/antag_ship/som/engi)
 "jgL" = (
-/obj/structure/table/mainship,
 /obj/item/storage/box/crate/loot/telecomm_tower_pack/clf{
 	pixel_x = 0;
 	pixel_y = 9
@@ -6748,6 +6756,9 @@
 /obj/item/storage/backpack/marine/radiopack/clf_net{
 	pixel_x = 0;
 	pixel_y = 6
+	},
+/obj/structure/table/mainship{
+	color = "#848484"
 	},
 /turf/open/floor/kutjevo/colors/yellow/inner_corner{
 	dir = 8
@@ -9142,14 +9153,34 @@
 	dir = 1
 	},
 /obj/structure/table/urban/shiny_black,
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = 16;
-	pixel_y = 16;
-	layer = 3.1
+/obj/structure/transmitter/clf_net/desk{
+	phone_category = "Cult Base";
+	phone_id = "Base";
+	pixel_x = -5;
+	pixel_y = 15
 	},
-/obj/item/pda/large/purple{
-	pixel_x = 0;
-	pixel_y = 18
+/obj/structure/transmitter/colony_net/desk{
+	phone_category = "Diplomacy";
+	phone_id = "Cult";
+	pixel_x = 5;
+	pixel_y = 15
+	},
+/obj/item/tool/pen{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/tool/pen/blue{
+	pixel_x = 1;
+	pixel_y = 4
+	},
+/obj/item/tool/pen/red{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -14;
+	pixel_y = 19;
+	layer = 3.1
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -9342,11 +9373,7 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/engi)
 "mwL" = (
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 0
-	},
+/obj/machinery/vending/armor_supply/icc/clf,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "mxd" = (
@@ -10724,7 +10751,10 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/transport)
 "oro" = (
-/obj/structure/curtain/black,
+/obj/structure/curtain/black{
+	pixel_x = -3;
+	pixel_y = 0
+	},
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "orr" = (
@@ -11630,15 +11660,14 @@
 /turf/open/floor/prison,
 /area/antag_ship/vsd/engi)
 "pHA" = (
-/obj/structure/bed/bedroll/sec{
-	pixel_x = 0;
-	pixel_y = -5;
-	name = "cat bed";
-	desc = "A cat bed laden with embroidered depictions of strange runes of a bygone era. Laying down on this fills you with a slight feeling of dread, but that might just be because you can feel the owner of the bed judging you."
+/obj/structure/window/reinforced/tinted{
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 0
 	},
-/mob/living/simple_animal/cat/salem{
-	verb_say = "meows";
-	verb_whisper = "hisses"
+/obj/structure/table/urban/shiny_black,
+/obj/machinery/faxmachine/clf{
+	pixel_y = 10
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -11845,39 +11874,23 @@
 /turf/open/floor/plating,
 /area/antag_ship/som/bridge/hall)
 "pXR" = (
-/obj/structure/table/urban/shiny_black,
-/obj/structure/transmitter/clf_net/desk{
-	phone_category = "Cult Base";
-	phone_id = "Base";
-	pixel_x = -5;
-	pixel_y = 10
+/obj/structure/cable,
+/obj/structure/window/reinforced/tinted{
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 0
 	},
-/obj/structure/transmitter/colony_net/desk{
-	phone_category = "Diplomacy";
-	phone_id = "Cult";
-	pixel_x = 5;
-	pixel_y = 10
+/obj/structure/bed/bedroll/sec{
+	pixel_x = 0;
+	pixel_y = -5;
+	name = "cat bed";
+	desc = "A cat bed laden with embroidered depictions of strange runes of a bygone era. Laying down on this fills you with a slight feeling of dread, but that might just be because you can feel the owner of the bed judging you."
 	},
-/obj/structure/paper_bin{
-	pixel_x = 3;
-	pixel_y = -4;
-	layer = 2.8
+/mob/living/simple_animal/cat/salem{
+	verb_say = "meows";
+	verb_whisper = "hisses"
 	},
-/obj/item/tool/pen{
-	pixel_x = -8;
-	pixel_y = -5
-	},
-/obj/item/tool/pen/blue{
-	pixel_x = -8;
-	pixel_y = -8
-	},
-/obj/item/tool/pen/red{
-	pixel_x = -8;
-	pixel_y = -12
-	},
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
-	},
+/turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "pZm" = (
 /obj/structure/bed/chair/dropship/passenger,
@@ -12848,10 +12861,12 @@
 /turf/open/floor/plating,
 /area/antag_ship/som/hangar)
 "rbA" = (
-/obj/structure/table/mainship,
 /obj/item/storage/box/crate/loot/materials_pack{
 	pixel_x = 0;
 	pixel_y = 6
+	},
+/obj/structure/table/mainship{
+	color = "#848484"
 	},
 /turf/open/floor/kutjevo/colors/orange/edge{
 	dir = 1
@@ -13011,8 +13026,10 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
 "rlv" = (
-/obj/structure/table/mainship,
 /obj/item/lightreplacer,
+/obj/structure/table/mainship{
+	color = "#848484"
+	},
 /turf/open/floor/kutjevo/colors/yellow/inner_corner{
 	dir = 4
 	},
@@ -13542,18 +13559,14 @@
 /turf/open/floor/freezer,
 /area/antag_ship/clf_base/facade/kitchen)
 "rXm" = (
-/obj/structure/bed/chair/stasis/explo{
-	anchored = 1
-	},
+/obj/structure/closet/wardrobe,
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
 	},
 /area/antag_ship/clf_base/real/dorms)
 "rXo" = (
-/obj/structure/bed/urban/bunkbed4,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
+/obj/structure/bed/urban/bunkbed4{
+	pixel_x = -2;
 	pixel_y = 0
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
@@ -13973,10 +13986,19 @@
 	},
 /area/antag_ship/icc/hangar/east)
 "sCl" = (
-/obj/structure/bed/urban/bunkbed4,
-/turf/open/floor/kutjevo/colors/purple/edge{
-	dir = 1
+/obj/structure/cable,
+/obj/structure/window/reinforced/tinted{
+	dir = 8;
+	pixel_x = -3;
+	pixel_y = 0
 	},
+/obj/structure/table/urban/shiny_black,
+/obj/machinery/computer/communications/coe{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "sCp" = (
 /obj/machinery/vending/marineFood/som,
@@ -17177,8 +17199,14 @@
 /area/antag_ship/som/office/commander/field)
 "wVz" = (
 /obj/structure/table/urban/shiny_black,
-/obj/machinery/faxmachine/clf{
-	pixel_y = 10
+/obj/item/pda/large/purple{
+	pixel_x = 2;
+	pixel_y = 18
+	},
+/obj/structure/paper_bin{
+	pixel_x = -15;
+	pixel_y = 13;
+	layer = 2.8
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
@@ -17720,12 +17748,7 @@
 /turf/open/floor/mainship/mono,
 /area/antag_ship/som/office/officers)
 "xDx" = (
-/obj/structure/curtain/black,
-/obj/structure/window/reinforced/tinted{
-	dir = 4;
-	pixel_x = 5;
-	pixel_y = 0
-	},
+/obj/machinery/vending/weapon/clf,
 /turf/open/floor/kutjevo,
 /area/antag_ship/clf_base/real/dorms)
 "xDC" = (
@@ -42327,7 +42350,7 @@ ujC
 ujC
 rrM
 cJU
-sCl
+rXo
 kIe
 oro
 wyD
@@ -42520,8 +42543,8 @@ oGd
 iho
 cJU
 rXo
-mwL
-xDx
+kIe
+oro
 wyD
 kIe
 kIe
@@ -42616,8 +42639,8 @@ kyd
 jox
 cJU
 pHA
-wyD
-wyD
+sCl
+pXR
 wyD
 wyD
 wyD
@@ -42712,7 +42735,7 @@ xyA
 wZE
 cJU
 wVz
-wyD
+ijE
 kIe
 kIe
 kIe
@@ -42808,7 +42831,7 @@ xyA
 wZE
 cJU
 mjd
-ijE
+wyD
 kIe
 kIe
 kIe
@@ -42903,8 +42926,8 @@ kyd
 kyd
 jox
 cJU
-pXR
-gWT
+rXm
+wyD
 kIe
 kIe
 kIe
@@ -43481,10 +43504,10 @@ cJU
 cJU
 uqH
 wyD
-kIe
+mwL
 gzN
-gzN
-gzN
+gWT
+xDx
 kIe
 oMz
 sPf
