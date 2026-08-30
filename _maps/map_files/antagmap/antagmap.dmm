@@ -9674,6 +9674,7 @@
 /obj/item/storage/belt/utility/full,
 /obj/item/storage/belt/utility/full,
 /obj/item/tool/weldpack,
+/obj/item/lightreplacer,
 /turf/open/floor/kutjevo/colors/orange/edge{
 	dir = 8
 	},
@@ -17266,14 +17267,10 @@
 /area/antag_ship/som/office/commander/field)
 "wVz" = (
 /obj/structure/table/urban/shiny_black,
-/obj/item/pda/large/purple{
-	pixel_x = 2;
-	pixel_y = 18
-	},
 /obj/structure/paper_bin{
 	pixel_x = -15;
 	pixel_y = 13;
-	layer = 2.8
+	layer = 2.9
 	},
 /turf/open/floor/kutjevo/colors/purple/edge{
 	dir = 1
