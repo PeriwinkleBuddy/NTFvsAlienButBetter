@@ -4333,6 +4333,9 @@
 /obj/item/stack/sheet/metal/large_stack,
 /obj/item/stack/sheet/plasteel/large_stack,
 /obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sheet/mineral/plastic/large_stack,
+/obj/item/stack/sheet/cloth/large_stack,
+/obj/item/stack/sheet/glass/glass/large_stack,
 /turf/open/floor/kutjevo/colors/yellow/edge{
 	dir = 8
 	},
