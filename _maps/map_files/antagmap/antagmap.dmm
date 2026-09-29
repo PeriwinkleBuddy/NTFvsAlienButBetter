@@ -62,9 +62,6 @@
 /area/antag_ship/clf_base/facade/fakechapel)
 "acP" = (
 /obj/structure/table/reinforced,
-/obj/item/tool/soap/nanotrasen{
-	desc = "A bar of soap handmade by the Church of Evolution. Features a stylized depiction of a Xenomorph Larva and smells of Lavender."
-	},
 /obj/machinery/reagentgrinder{
 	pixel_x = 0;
 	pixel_y = 9
@@ -1138,14 +1135,6 @@
 	},
 /turf/open/floor/mainship/sterile/white,
 /area/antag_ship/som/bathroom/lower)
-"bsR" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/table/urban/shiny_brown,
-/obj/item/storage/fancy/candle_box,
-/turf/open/floor/wood,
-/area/antag_ship/clf_base/facade/fakechapel)
 "btT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -2381,6 +2370,8 @@
 	},
 /obj/structure/closet/cabinet,
 /obj/item/storage/pill_bottle/aphrotoxin,
+/obj/item/seeds/goldappleseed,
+/obj/item/book/manual/chef_recipesplus,
 /turf/open/floor/wood/fancy,
 /area/antag_ship/clf_base/real/reedroom)
 "cSM" = (
@@ -3839,6 +3830,15 @@
 "eVy" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/snacks/syndicake{
+	name = "Evo-Cakes"
+	},
+/obj/item/reagent_containers/food/snacks/syndicake{
+	name = "Evo-Cakes"
+	},
+/obj/item/reagent_containers/food/snacks/syndicake{
+	name = "Evo-Cakes"
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "eWa" = (
@@ -4704,8 +4704,6 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
-/obj/item/tool/kitchen/utensil/knife,
-/obj/item/tool/kitchen/utensil/knife,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "geK" = (
@@ -5960,11 +5958,6 @@
 	},
 /turf/open/floor/urban/carpet/carpetblack,
 /area/antag_ship/icc/generator_room)
-"hVl" = (
-/obj/effect/step_trigger/teleporter/random,
-/obj/structure/barricade/handrail/strata,
-/turf/open/space/basic,
-/area/space)
 "hVn" = (
 /obj/structure/cable,
 /obj/structure/catwalk,
@@ -6302,6 +6295,10 @@
 	dir = 10
 	},
 /obj/structure/table/urban/shiny_brown,
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 0;
+	pixel_y = 7
+	},
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "isY" = (
@@ -10472,12 +10469,12 @@
 	pixel_y = 22;
 	pixel_x = -5
 	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8
+	},
 /obj/item/reagent_containers/food/drinks/shaker{
 	pixel_x = 9;
 	pixel_y = 18
-	},
-/obj/structure/extinguisher_cabinet{
-	dir = 8
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
@@ -10554,16 +10551,10 @@
 /turf/open/shuttle/dropship/floor,
 /area/shuttle/transport)
 "nTY" = (
+/obj/effect/turf_decal/siding/white,
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/snacks/syndicake{
-	name = "Evo-Cakes"
-	},
-/obj/item/reagent_containers/food/snacks/syndicake{
-	name = "Evo-Cakes"
-	},
-/obj/item/reagent_containers/food/snacks/syndicake{
-	name = "Evo-Cakes"
-	},
+/obj/item/reagent_containers/food/condiment/peppermill,
+/obj/item/reagent_containers/food/condiment/saltshaker,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "nUp" = (
@@ -10945,7 +10936,6 @@
 /area/antag_ship/som/medbay/morgue)
 "otN" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/chef_recipes,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "otO" = (
@@ -11042,6 +11032,7 @@
 	dir = 8
 	},
 /obj/structure/table/urban/shiny_brown,
+/obj/item/reagent_containers/cup/glass/bottle/holywater,
 /turf/open/floor/wood,
 /area/antag_ship/clf_base/facade/fakechapel)
 "oyy" = (
@@ -11551,8 +11542,6 @@
 	dir = 8
 	},
 /obj/structure/table/reinforced,
-/obj/item/tool/kitchen/utensil/fork,
-/obj/item/tool/kitchen/utensil/fork,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "psV" = (
@@ -12423,8 +12412,6 @@
 	dir = 10
 	},
 /obj/structure/table/reinforced,
-/obj/item/tool/kitchen/utensil/spoon,
-/obj/item/tool/kitchen/utensil/spoon,
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "qrN" = (
@@ -13944,6 +13931,10 @@
 	dir = 6
 	},
 /obj/structure/table/reinforced,
+/obj/item/book/manual/chef_recipes,
+/obj/item/tool/soap/nanotrasen{
+	desc = "A bar of soap handmade by the Church of Evolution. Features a stylized depiction of a Xenomorph Larva and smells of Lavender."
+	},
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/clf_base/facade/kitchen)
 "slF" = (
@@ -41477,7 +41468,7 @@ oRF
 oRF
 oRF
 oRF
-hVl
+oRF
 oRF
 oRF
 oRF
@@ -41954,7 +41945,7 @@ fDe
 xbz
 gTT
 iIt
-nTY
+otN
 nuU
 eVy
 hTm
@@ -42148,7 +42139,7 @@ tnW
 iIt
 acP
 nuU
-eVy
+nTY
 hTm
 neZ
 tJs
@@ -43581,7 +43572,7 @@ yhP
 rJF
 yhP
 rJF
-bsR
+yhP
 yiO
 fkr
 iXe
