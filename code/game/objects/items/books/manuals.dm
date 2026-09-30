@@ -912,7 +912,7 @@
 				A personal favorite of compatriots and hostiles alike. Within a microwave, mix three pieces of dough alongside 5u of milk, 10u of sugar, and 5u of holy water.
 
 				<h2>Baked Perfection, the Golden Apple Tart:</h2>
-				Begin with growing and harvesting only the finest Golden Apples. Obtained through Mutagenic or Metaphysical means. Once you have your apples (only the fairest will suffice!), place one within the microwave alongside three sacks of flour, 5u of Milk and 5u of Sugar. Let cool and enjoy.
+				Begin with growing and harvesting only the finest Golden Apples. Obtained through Mutagenic or Metaphysical means. Once you have your apples (only the fairest will suffice!), place one within the microwave alongside three sacks of flour, one egg, 5u of Milk and 5u of Sugar. Let cool and enjoy.
 
 
 				</body>
