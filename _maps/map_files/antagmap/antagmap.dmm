@@ -12021,9 +12021,9 @@
 	dir = 10
 	},
 /obj/structure/table/urban/shiny_black,
-/obj/item/storage/surgical_tray{
-	pixel_x = 1;
-	pixel_y = 7
+/obj/item/storage/surgical_tray/coe{
+	pixel_x = 2;
+	pixel_y = 9
 	},
 /turf/open/floor/whitecyanfour{
 	dir = 4
