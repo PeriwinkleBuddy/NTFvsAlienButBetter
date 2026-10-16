@@ -6672,7 +6672,6 @@
 /turf/open/floor/tile/white/hall/full,
 /area/antag_ship/vsd/hall)
 "iTG" = (
-/obj/machinery/light,
 /obj/item/tool/wrench,
 /obj/item/paper{
 	name = "Factory Notice";
