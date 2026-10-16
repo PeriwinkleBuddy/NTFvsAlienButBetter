@@ -207,7 +207,7 @@
 	throwforce = 1
 
 /obj/item/tool/surgery/FixOVein/coe
-	name = "Artery Salve"
+	name = "arterial salve"
 	desc = "For fixing internal bleeding and heavy brain damage. Functionally identical to a FixOVein"
 	icon_state = "predator_fixovein"
 	force = 0
@@ -227,9 +227,9 @@
 	attack_verb = list("attacks", "hits", "bludgeons")
 
 /obj/item/tool/surgery/suture/coe
-	name = "surgical suture"
+	name = "monofilament suture"
 	icon_state = "predator_suture"
-	desc = "For healing basic brute and burn damage during surgery. Functionally identical to a surgical suture."
+	desc = "For healing brute and burn damage during surgery. Functionally identical to a surgical suture."
 	force = 3
 	throwforce = 0
 	w_class = WEIGHT_CLASS_SMALL
